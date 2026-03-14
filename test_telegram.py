@@ -17,9 +17,9 @@ def send_telegram_message(message_text):
     
     # เช็คว่าส่งสำเร็จไหม
     if response.status_code == 200:
-        print("ส่งข้อความเข้า Telegram สำเร็จแล้ว!")
+        print("Message sent")
     else:
-        print(f"ส่งไม่สำเร็จ โค้ดแจ้งเตือน: {response.text}")
+        print(f"Message unsent: {response.text}")
 
 # 3. ลองเรียกใช้งานฟังก์ชัน
-send_telegram_message("สวัสดีนี่คือข้อความทดสอบแจ้งเตือนจากระบบ")
+send_telegram_message("Hello")
