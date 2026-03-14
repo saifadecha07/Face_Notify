@@ -1,8 +1,8 @@
 import requests
 
 # 1. ข้อมูลของbot
-TOKEN = '8220444201:AAHig8BTsCcurclOyVDGOIXgYzct8ITp50I'  
-CHAT_ID = '8696330483'    
+TOKEN = '8220444201:AAHig8xxxxxxxxxxxxx'  
+CHAT_ID = '869xxxxxxxx'    
 
 # 2. ฟังก์ชันสำหรับส่งข้อความ
 def send_telegram_message(message_text):
