@@ -1,2 +1,2 @@
 # Face_Notify
-ผมทำขึ้นมาเพื่อ Test bot ,API
+ทำขึ้นมาเพื่อ Test bot ,API
